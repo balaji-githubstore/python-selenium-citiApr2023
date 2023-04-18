@@ -11,7 +11,7 @@ driver.implicitly_wait(20)
 driver.get("https://nasscom.in/")
 
 actions = webdriver.ActionChains(driver)
-actions.move_to_element(driver.find_element(By.XPATH, "//a[text()='Membership']")).perform()
+actions.move_by_offset(200,120).perform()
 
 # mouse hover on Become a member
 actions.move_to_element(driver.find_element(By.XPATH,"//a[text()='Become a Member']")).perform()
