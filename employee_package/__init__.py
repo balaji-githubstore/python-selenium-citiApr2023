@@ -1,0 +1,1 @@
+from employee_package.employee_module import Employee as EMP
