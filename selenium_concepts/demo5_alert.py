@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
-
+#example for javascript alert handling
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.implicitly_wait(20)
