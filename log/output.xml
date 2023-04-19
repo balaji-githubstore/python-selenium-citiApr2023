@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.0 on win32)" generated="20230419 14:00:36.740" rpa="false" schemaversion="3">
+<suite id="s1" name="Demo2 Suite" source="C:\Automation Training\RobotProject\robot_suite\demo2_suite.robot">
+<test id="s1-t1" name="TC1" line="5">
+<kw name="Add Number" library="demo1">
+<var>${res}</var>
+<arg>10</arg>
+<arg>10</arg>
+<msg timestamp="20230419 14:00:36.818" level="INFO">${res} = 20</msg>
+<status status="PASS" starttime="20230419 14:00:36.818" endtime="20230419 14:00:36.818"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${res}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230419 14:00:36.818" endtime="20230419 14:00:36.818"/>
+</kw>
+<status status="PASS" starttime="20230419 14:00:36.802" endtime="20230419 14:00:36.818"/>
+</test>
+<status status="PASS" starttime="20230419 14:00:36.756" endtime="20230419 14:00:36.818"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Demo2 Suite">Demo2 Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
