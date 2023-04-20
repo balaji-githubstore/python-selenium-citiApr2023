@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cae756b8-f6c4-4dfb-8112-4d3e47bc2b88" name="Changes" comment="Test template and excel">
-      <change afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/pages/CalendarPage.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/pages/LoginPage.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/pages/MainPage.resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_suite/demo5_csv.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_suite/demo6_csv.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data/valid_login.csv" afterDir="false" />
+    <list default="true" id="cae756b8-f6c4-4dfb-8112-4d3e47bc2b88" name="Changes" comment="Page object Model, command line executions added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/base.resource" beforeDir="false" afterPath="$PROJECT_DIR$/resource/base.resource" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_suite/demo2_suite.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robot_suite/demo2_suite.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_suite/demo1_basics.robot" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_suite/demo1_basics.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_suite/demo3_valid_login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_suite/demo3_valid_login.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_suite/demo4_valid_login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_suite/demo4_valid_login.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Automation Training/RobotProject/selenium_suite",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Automation Training/RobotProject/selenium_suite&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Automation Training\RobotProject\selenium_suite" />
@@ -86,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681969371799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Page object Model, command line executions added">
+      <created>1681973259862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681973259862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +97,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created Customized Keywords in resource file" />
     <MESSAGE value="Test template and excel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test template and excel" />
+    <MESSAGE value="Page object Model, command line executions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page object Model, command line executions added" />
   </component>
 </project>
