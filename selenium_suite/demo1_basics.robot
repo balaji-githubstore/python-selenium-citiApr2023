@@ -2,7 +2,7 @@
 Library     SeleniumLibrary
 
 *** Test Cases ***
-TC1 FB Login
+TC1
     Open Browser     browser=chrome
     Maximize Browser Window
     Set Selenium Implicit Wait    20s
@@ -11,7 +11,7 @@ TC1 FB Login
     Input Password    id=pass    wleomce123
     Click Element    name=login
 
-TC2 Verify Header
+TC2
     Open Browser     browser=chrome
     Maximize Browser Window
     Set Selenium Implicit Wait    20s

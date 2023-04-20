@@ -2,7 +2,7 @@
 Library     SeleniumLibrary
 
 *** Variables ***
-${BROWSER_NAME}     chrome
+${BROWSER_NAME}     edge
 ${URL}      https://demo.openemr.io/b/openemr/
 
 *** Keywords ***

@@ -4,15 +4,11 @@ Library     SeleniumLibrary
 Resource    ../resource/base.resource
 
 Library     DataDriver      file=../test_data/open_emr_data.xlsx       sheet_name=ValidLogin
-
 Test Setup   Launch Browser
 Test Teardown   Close Browser
-
 Test Template   Valid Login Template
-
 *** Test Cases ***
 TC1
-
 
 *** Keywords ***
 Valid Login Template

@@ -3,14 +3,15 @@ Documentation       This helps to understand test template concepts
 Library     SeleniumLibrary
 Resource    ../resource/base.resource
 
+Library     DataDriver      file=../test_data/valid_login.csv
+
 Test Setup   Launch Browser
 Test Teardown   Close Browser
 
 Test Template   Valid Login Template
 
 *** Test Cases ***
-TC1    admin   pass    English (Indian)    OpenEMR
-TC2     physician   physician   English (Indian)    OpenEMR
+TC1
 
 *** Keywords ***
 Valid Login Template
