@@ -33,7 +33,7 @@ student = {
     "name": "John",
     "mark": [45, 75, 89],
     "percentage": 65.5,
-    "group":"red"
+    "group": "red"
 }
 print(student)
 print(type(student))
@@ -43,11 +43,15 @@ print(student["percentage"])
 print(student["mark"])
 print(student["mark"][0])
 
-mobile_app={
-    "platformName":"android",
-    "platformVersion":11,
-    "browserName":"chrome"
+mobile_app = {
+    "platformName": "android",
+    "platformVersion": 11,
+    "browserName": "chrome"
 }
 
 print(mobile_app)
 print(mobile_app["platformName"])
+
+data = [["admin", "pass"], ["john", "john123"]]
+
+print(data[0][0])
